@@ -21,6 +21,7 @@
 /// \brief Utility functions on BAM records
 
 #pragma once
+#pragma clang diagnostic ignored "-Wunused-result"
 
 #include "blt_util/SimpleAlignment.hpp"
 #include "blt_util/align_path.hpp"
