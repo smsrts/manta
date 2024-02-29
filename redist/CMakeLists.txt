@@ -150,7 +150,7 @@ endif ()
 #
 # samtools
 #
-set(SAMTOOLS_PREFIX "samtools-1.9")
+set(SAMTOOLS_PREFIX "samtools-1.14")
 set(SAMTOOLS_DIR "${CMAKE_CURRENT_BINARY_DIR}/${SAMTOOLS_PREFIX}")
 set(SAMTOOLS_LIBRARY "${SAMTOOLS_DIR}/libbam.a")
 superset(SAMTOOLS_PROG "${SAMTOOLS_DIR}/samtools")
